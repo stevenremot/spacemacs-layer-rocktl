@@ -30,7 +30,7 @@
 ;;; Code:
 
 (defconst rocktl-packages
-  '((rocktl :location (recipe :fetcher github :url "stevenremot/emacs-rocktl")))
+  '((rocktl :location (recipe :fetcher github :repo "stevenremot/emacs-rocktl")))
   "The list of Lisp packages required by the rocktl layer.
 
 Each entry is either:
