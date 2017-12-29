@@ -1,17 +1,12 @@
 #+TITLE: rocktl layer
 
-# The maximum height of the logo should be 200 pixels.
-[[img/rocktl.png]]
-
-# TOC links should be GitHub style anchors.
 * Table of Contents                                        :TOC_4_gh:noexport:
 - [[#description][Description]]
 - [[#install][Install]]
 - [[#key-bindings][Key bindings]]
 
 * Description
-This layer does wonderful things:
-  - thing01
+This layer installs [[https://github.com/stevenremot/emacs-rocktl][Rocktl]] and set up keybindings for the most basic actions.
 
 * Install
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
@@ -20,11 +15,8 @@ file.
 
 * Key bindings
 
-| Key Binding | Description    |
-|-------------+----------------|
-| ~SPC x x x~ | Does thing01   |
-# Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
-# Examples:
-# [[https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#sessions]]
-# [[https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bfun/emoji/README.org][Link to Emoji layer README.org]]
-# If space-doc-mode is enabled, Spacemacs will open a local copy of the linked file.
+| Key Binding | Description                      |
+|-------------+----------------------------------|
+| ~C-c & &~   | Run a rocktl command             |
+| ~C-c & s~   | Show the rocktl processes status |
+
